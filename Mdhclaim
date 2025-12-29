@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Official Access</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: url("bg.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #e6ecff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* overlay gelap agar teks jelas */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 9, 20, 0.75);
+      z-index: -1;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 380px;
+      padding: 32px 20px;
+      background: rgba(10, 15, 40, 0.55);
+      border-radius: 20px;
+      box-shadow: 0 0 40px rgba(90,140,255,0.25);
+      backdrop-filter: blur(4px);
+    }
+
+    .logo img {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      margin-bottom: 16px;
+      filter: drop-shadow(0 0 14px rgba(90,140,255,0.9));
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      transition: all 0.25s ease;
+      box-shadow: 0 0 18px rgba(0,0,0,0.4);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 26px rgba(90,140,255,0.6);
+    }
+    .def {
+      background: linear-gradient(135deg, #ff0000, #ff0000);
+    }
+    .wa {
+      background: linear-gradient(135deg, #25d366, #1ebe5d);
+    }
+
+    .tg {
+      background: linear-gradient(135deg, #2aabee, #229ed9);
+    }
+
+    .event {
+      background: linear-gradient(135deg, #4c5cff, #6a7bff);
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+
+    <!-- JUDUL -->
+    <h1>SITUS SLOT RESMI AWANASLOT</h1>
+    <div class="subtitle">
+      Main santai, cuan tetap jalan
+    </div>
+
+    <a class="btn def" href="https://seo-kroco.site/link-awanaslot/link.php?to=daftar" target="_blank">
+      📝 DAFTAR DISINI
+    </a>
+
+    <a class="btn wa" href="https://wa.me/+6281284264502" target="_blank">
+      💬 WHATSAPP ADMIN
+    </a>
+
+    <a class="btn tg" href="https://t.me/Awanaslot" target="_blank">
+      🚀 TELEGRAM RESMI
+    </a>
+
+    <a class="btn event" href="https://seo-kroco.site/link-awanaslot/link.php?to=Promo" target="_blank">
+      🎁 INFO EVENT & BONUS
+    </a>
+
+    <footer>
+      BONUS SPESIAL DIAWAL
+    </footer>
+
+  </div>
+</body>
+</html>
